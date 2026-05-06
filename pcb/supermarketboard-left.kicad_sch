@@ -3531,6 +3531,52 @@
 		)
 	)
 	(sheet
+		(at 139.7 165.1)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0dcbd042-487a-4ca2-94b5-6f91a29c604d")
+		(property "Sheetname" "LEDs"
+			(at 139.7 164.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "smbl-leds.kicad_sch"
+			(at 139.7 169.4946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "supermarketboard-left"
+				(path "/0dae0f32-c2d7-4dc8-95af-100ebdc818f4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 101.6 165.1)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
